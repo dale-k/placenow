@@ -1,0 +1,109 @@
+body{
+  background-color:#f9f6f6;
+}
+.no-padding{
+  padding:0px;
+}
+/* for 2nd nav bar*/
+.tag-nav2-wrapper{
+  position: relative;
+  top:46px;
+}
+.tag-title{
+  padding:5px;
+}
+div.tag-title a{
+  padding:1px;
+  font-size: 25px;
+  float:right;
+
+}
+.nav-pills-2{
+  border-bottom:1px solid black;
+}
+ul.nav-pills-2 li a{
+  text-align: center;
+}
+/* enf of 2nd nav bar*/
+
+.wrap-content{
+
+  margin-top:80px;
+}
+div.title-user{
+  font-size: 15px;
+  text-align: center;
+
+  
+  margin-bottom:5px;
+}
+div.user-info{
+  padding:0px;
+  padding-top:5px;
+  padding-bottom:5px;
+  border-radius: 5px;
+  border-top:1px solid grey;
+  border-bottom:1px solid grey;
+}
+div.user-profile-img{
+  padding:3px;
+}
+div.middle-img-section{
+  padding:0px;
+}
+/*   display  img-place author time */
+div.img-place > div{
+  position: absolute;
+  top:5px;
+  left:5px;
+  margin-right: 5px;
+  background-color:#9fd7fb;
+  border-radius: 5px;
+  white-space:nowrap;
+  overflow:hidden;
+  opacity: 0.8;
+  width:90%;
+}
+
+/*#f9f6f6*/
+div.img-author-time{
+  position: absolute;
+  bottom:5px;
+  right:5px;
+  background-color: #f9f6f6;
+  border-radius: 5px;
+  /*opacity: 0.6;*/
+}
+div.shine-text{
+  color:white;
+
+}
+div.shine-text-place a, .glyphicon-map-marker{
+  color:black !important;
+  cursor:pointer;
+}
+
+div.shine-text-time a{
+  color:black !important;
+  cursor:pointer;
+}
+
+
+.tag-list{
+  position: relative;
+  padding:0px;
+
+}
+li.nav-tab a.link:target{
+  background-color: #90b6d6;
+}
+a:hover{
+  text-decoration: none;
+}
+@media only screen and (max-device-width: 480px) {
+  div.popular-img-wrap{
+    padding:2px;
+    font-size: 2vw;
+  }
+  
+}

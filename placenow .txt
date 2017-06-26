@@ -1,0 +1,20 @@
+first page
+- navigation bar(logo, search, login)
+- main(slide - top 5 popular city in World)
+- Explore your city ( button to allow your location to find city and go to another page )
+- share what's happing where I am
+- bottom
+
+city page
+- top 5 place
+
+
+
+page after login
+- list new updates from follwed place
+
+
+pl_place( id, city,    location,lat,lng,type,viewed)
+pl_pics ( id, user,    lat,lng,city,location,pic_loc,timestamp)
+pl_post ( id, user,    comment,goodrating,badrating,pic_loc,timestamp)
+pl_user ( id, username,password,email,phone,place_id,timestamp)

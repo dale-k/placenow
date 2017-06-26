@@ -1,0 +1,96 @@
+.nav-fluid {
+	background-color: #fff;
+}
+.navbar-wrapper {
+	position: relative !important;
+}
+
+.top a.brand {
+	display: block;
+	margin-top: 2.5%;
+	margin-bottom: 2%;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-weight: 800;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: none;
+}
+/* nav */
+.wrap-nav-row {
+	/*
+	border-top: 2px solid #333;
+	border-bottom: 1px solid #d4d2d2;*/
+	/*background-color: #1b8eb7;*/
+}
+.wrap-nav-row .wrap-nav {
+	display: table;
+	margin: 0 auto;
+}
+.wrap-nav-row .nav {
+	display: block;
+	margin: auto;
+	padding: 10px 0 10px 0;
+}
+
+.wrap-nav-row .nav ul {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+.wrap-nav-row .nav ul li {
+	display: inline;
+}
+.wrap-nav-row .nav > li > a {
+	padding: 0 15px;
+	color: #fff !important;
+	font-weight: 500;
+	font-size: 15px;
+}
+
+.wrap-nav-row .wrap-margin {
+	margin-top: 40px
+}
+
+
+
+/* using this */
+.top a.brand {
+	height: 70px;
+	line-height: 60px;
+	font-weight: 800;
+	font-size: 65px;
+	/*font-family: 'PT Sans', sans-serif;*/
+	/*font-family: 'Berkshire Swash', cursive;*/
+	/*font-family: 'Kaushan Script', cursive;*/
+	/*font-family: 'Permanent Marker', cursive;*/
+	/*font-family: 'Voltaire', sans-serif;*/
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+.wrap-nav-row {
+	background-color: #fff;
+	border-top: 5px double #333;
+	border-bottom: 2px solid #333;
+}
+.wrap-nav-row .nav > li > a ,li.nav-tab > a.link{
+	font-size: 17px;
+	color: #333 !important;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.wrap-nav-row .nav ul.profile-dropdown, ul.profile-dropdown li a{
+	min-width:100px;
+}
+
+/* Small devices (tablets, 480px and below) */
+@media only screen and (max-device-width: 480px) {
+
+	a.small-brand {
+		margin-top: 8px;
+	}
+	.wrap-nav-row .nav {
+		margin-top: 6px;
+	}
+
+}

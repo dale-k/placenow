@@ -1,0 +1,524 @@
+/*set*/
+.padding-remove {
+	padding: 0;
+}
+h2 {
+	font-size: 40px;
+}
+a {
+	color: #4a4a4a;
+	cursor: pointer;
+}
+
+
+body {
+	/*background-color: #f7f7f7;*/
+}
+a.small-brand {
+	display: none;
+}
+
+.wrap-margin {
+	margin-top: 0px
+}
+.wrap-top-place-list {
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+.top-place-title {
+
+}
+.top-place-title h2 {
+	/*margin-bottom: 30px;*/
+	margin: 0;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	/*color: #ff0000;*/
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+	/*font-family: 'Vollkorn', serif;*/
+	background-color: #f13636;
+	border-bottom: 1px solid #f13636;
+}
+hr {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.top-place-title-bottom-border {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 80%;
+	height: 0px;
+	border: 0;
+    /*border-bottom: 1px solid #c3b7b7;*/
+    /*box-shadow: 0 10px 10px -10px #8c8b8b inset;*/
+}
+
+.top-place-list {
+	margin-bottom: 0px;
+	width: 100%;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 800;
+	/*font-family: 'Vollkorn', serif;*/
+}
+.top-place-list a {
+	display: block;
+	padding-top: 21px;
+	padding-bottom: 21px;
+	background-color: #f9f6f6;
+	/*border-bottom: 1px solid #c3b7b7;*/
+}
+.top-place-list-bottom-border {
+	width: 100%;
+	border: 0;
+	border-bottom: 1px solid #c3b7b7;
+	/*border-bottom: 1px double #333;*/
+}
+.top-place-middle {
+	position: relative;
+	margin-top: 2px;
+}
+.top-place-wrap-picture {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	padding: 0;
+	width: 100%;
+    height: 398px;
+    overflow: hidden;
+}
+.top-place-wrap-picture > img {
+	position: absolute;
+    margin: auto; 
+    padding-left: 2px;
+    padding-right: 2px;
+    min-height: 100%;
+    min-width: 100%;
+
+    /* For the following settings we set 100%, but it can be higher if needed 
+    See the answer's update */
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    z-index: 10;
+}
+.top-place-wrap-picture > h3 {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding: 10px 10px 20px 10px;
+	background-color: #fff;
+	z-index: 11;
+}
+.top-place-img-info {
+	position: relative;
+	display: none;
+}
+/**/
+.top-place-2-wrap-picture {
+	position: relative;
+	display: block;
+	padding: 0;
+	width: 100%;
+    height: 130px;
+    overflow: hidden;
+}
+.top-place-2-wrap-picture > img {
+	position: absolute;
+    margin: auto; 
+    min-height: 100%;
+    min-width: 100%;
+
+    /* For the following settings we set 100%, but it can be higher if needed 
+    See the answer's update */
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+}
+
+.top-picture-padding {
+	padding: 2px;
+}
+/**/
+.top-place-wrap-picture:nth-child(1) {
+	display: block;
+}
+
+.wrap-info-about-place {
+	position: absolute;
+	left: 0;
+	display: none;
+	width: 100%;
+	height: 500px;
+    text-align: center;
+    /*border-left: 1px solid #333;*/
+}
+
+.wrap-info-about-place:nth-child(1) {
+	display: block;
+}
+
+.wrap-info-about-place > div:nth-child(1) {
+	margin-top: 20px;
+}
+.wrap-info-about-place > div {
+	margin-bottom: 10px;
+}
+
+.wrap-pictures-from-place {
+	position: ;
+	display: block;
+}
+#place-picture-0 {
+	display: ;
+}
+#place-picture-1 {
+	display: none;
+}
+#place-picture-2 {
+	display: none;
+}
+#place-picture-3 {
+	display: none;
+}
+#place-picture-4 {
+	display: none;
+}
+
+/* city */
+.city-title {
+	position: relative;
+	margin: 0;
+	padding: 15px 10px 15px 20px;
+	text-align: left;
+	color: #fff;
+	font-size: 23px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	background-color: #365d95;
+}
+.city-list {
+	position: relative;
+	display: block;
+    height: 460px;
+    overflow: hidden;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+.city-list > img {
+	position: absolute;
+    margin: auto; 
+    padding: 2px;
+    min-height: 100%;
+    min-width: 100%;
+
+    /* For the following settings we set 100%, but it can be higher if needed 
+    See the answer's update */
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    opacity: ;
+    z-index: 12;
+}
+
+.wrap-top-container {
+	padding-bottom: 80px;
+	/*background-color: #f4f4f5;*/
+	/*background-color: #565a69;*/
+}
+.separator {
+	border-bottom: 1px solid #333;
+}
+.tag-title {
+	position: relative;
+	margin: 0;
+	padding: 15px 10px 15px 20px;
+	text-align: left;
+	color: #fff;
+	font-size: 23px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	background-color: #f77700;
+	/*border-bottom: 1px solid #333;*/
+}
+/*.tag-title {
+	position: absolute;
+	top: 0px;
+	padding: 10px 10px 10px 10px;
+	text-align: left;
+	font-size: 20px;
+	background-color: #fff;
+	z-index: 13;
+}*/
+.tag-list {
+	position: relative;
+	display: block;
+    height: 230px;
+    overflow: hidden;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+.tag-list > img {
+	position: absolute;
+    margin: auto; 
+    padding: 2px;
+    min-height: 100%;
+    min-width: 100%;
+
+    /* For the following settings we set 100%, but it can be higher if needed 
+    See the answer's update */
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    opacity: ;
+    z-index: 12;
+}
+.tag-list > div {
+	position: absolute;
+	right: 5px;
+	bottom: 30px;
+	padding: 5px 15px 10px 15px;
+	/*color: #fff;*/
+	font-size: 18px;
+	font-weight: 700;
+	/*background-color: #f96440;*/
+	background-color: #f9f6f6;
+	z-index: 13;
+}
+/*.tag-list:nth-child(1) > div {
+	background-color: #365d95;
+}
+.tag-list:nth-child(2) > div {
+	background-color: #f96440;
+}
+.tag-list:nth-child(3) > div {
+	background-color: #ffb900;
+}
+.tag-list:nth-child(4) > div {
+	background-color: #3e671b;
+}*/
+
+.wrap-popular-tag-picture {
+	position: relative;
+	display: block;
+	padding: 0;
+	width: 100%;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.tag-cover {
+	position: ;
+	display:;
+	width: 100%;
+	height: 100%;
+	line-height: 85px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 900;
+	color: #333;
+	background-color: #c3c3c3;
+}
+
+
+.tag-color > a {
+	font-family: sans-serif !important;
+	color: #ea5656;
+	font-weight: 500;
+}
+
+/* Popular tag */
+.wrap-popular-tag {
+	padding-left: 10px;
+}
+.wrap-tag-img {
+	padding: 5px;
+}
+.popular-tag-img {
+	position: relative;
+	display: block;
+	padding: 0;
+	width: 100%;
+    height: ;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.popular-tag-img > img {
+	position: absolute;
+    margin: auto; 
+    min-height: 100%;
+    min-width: 100%;
+
+    /* For the following settings we set 100%, but it can be higher if needed 
+    See the answer's update */
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    opacity: ;
+    z-index: 12;
+}
+
+
+
+
+
+
+/* latest */
+.wrap-fluid-latest {
+	margin-top: 2px;
+	padding: 2px;
+	/*background-color: #e0e0e0;*/
+}
+.wrap-latest {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.latest-title {
+	position: relative;
+	margin: 0;
+	padding: 15px 10px 15px 20px;
+	text-align: left;
+	color: #fff;
+	font-size: 23px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	background-color: #365d95;
+}
+.wrap-latest-time {
+	padding: 5px 10px;
+	/*background-color: #f9f6f6;*/
+}
+.wrap-latest-time span, .wrap-latest-time p {
+	display: inline-block;
+	margin: 0;
+}
+
+.wrap-latest-img {
+	position: relative;
+	display: block;
+	padding: 0;
+	width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.wrap-latest-img > img {
+	/*position: absolute;*/
+    margin: auto; 
+    min-height: 100%;
+    min-width: 100%;
+
+    /* For the following settings we set 100%, but it can be higher if needed 
+    See the answer's update */
+    /*left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;*/
+    border-radius: 5px;
+    border: 0;
+}
+.wrap-vote-count {
+	position: absolute;
+	right: 5px;
+	bottom: 3px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 800;
+}
+.latest-info {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	/*background-color: #f9f6f6;*/
+}
+.latest-info p {
+	color: #797C80;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.grid-item {
+	padding: 20px;
+}
+
+
+.wrap-photo-chat-btn {
+	height: 200px;
+}
+
+.wrap-photo-chat-btn > a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.wrap-best-content {
+}
+
+
+/* Small devices (tablets, 480px and below) */
+@media only screen and (max-device-width: 480px) {
+	.row {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.top a.brand {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 20px;
+	}
+	.wrap-nav-row {
+		border-top: 2px solid #333;
+    	border-bottom: 2px solid #333;
+	}
+	.wrap-top-place-list {
+	}
+	.top-place-title h2 {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.top-place-list {
+		display: none;
+	}
+	.top-place-middle {
+		padding: 0;
+	}
+	.top-place-wrap-picture {
+		position: relative;
+		display: block;
+		margin-top: 4px;
+		margin-bottom: 4px;
+		float: none;
+		padding: 2px;
+		height: 200px;
+	}
+	.top-place-wrap-picture:nth-child(7), .top-place-wrap-picture:nth-child(9) {
+		display: none;
+		height: 0;
+	}
+	.top-place-img-info {
+		display: block;
+	}
+
+	.top-place-right {
+		display: none;
+	}
+
+	/* tag */
+	.tag-list {
+		height: 180px;
+	}
+
+	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .grid-item img {
+        width: 100% !important;
+    }
+}

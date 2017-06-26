@@ -1,0 +1,355 @@
+/*set*/
+.padding-remove {
+	padding: 0;
+}
+.padding-around {
+	padding: 4px;
+}
+h2 {
+	font-size: 40px;
+}
+a {
+	/*color: #4a4a4a;*/
+	cursor: pointer;
+}
+body {
+	/*background-color: #f5f5f5;*/
+	/*background-color: #464a54;*/
+}
+.nav-fluid, .wrap-nav-row {
+	color: #fff;
+	/*background-color: #2b2d32;*/
+	/*background-color: #000;*/
+	border-bottom: 1px solid #333;
+}
+.top a.brand {
+	color: #333 !important;
+}
+.wrap-nav-row {
+	border-top: 0px double #333;
+	border-bottom: 0px solid #333;
+}
+a.small-brand {
+	display: block;
+	margin-bottom: 0px;
+	/*padding: 10px 0 10px 0; */
+	height: inherit;
+	font-size: 20px;
+	color: #333;
+	font-weight: 800;
+	font-size: 25px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-decoration: none;
+}
+.wrap-nav-row .nav {
+	/*padding: 20px 0 20px 0;*/
+}
+.wrap-nav-row .nav > li > a {
+	/*color: #d0d3d6 !important;*/
+	color: #333;
+}
+.wrap-margin {
+	margin-top: 75px;
+}
+.wrap-img {
+	position: relative;
+	display: block;
+	padding: 0;
+	width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.wrap-img > img {
+	position: absolute;
+    margin: auto; 
+    min-height: 100%;
+    min-width: 100%;
+
+    /* For the following settings we set 100%, but it can be higher if needed 
+    See the answer's update */
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+}
+a.comment-tag {
+	color: #ea3636;
+}
+.block-border-radius {
+	border-radius: 0px;
+}
+
+/* most_popular */
+
+.mp-title > h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 10px 10px;
+	text-align: center;
+	border-bottom: 1px solid #333;
+}
+.mmp-1 {
+	position: relative;
+	height: 360px;
+}
+.wrap-mmp-content-1 {
+	position: absolute;
+	left: 5px;
+	top: 30px;
+}
+.mmp-content-1 {
+	padding: 10px 25px 10px 25px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 700;
+	/*background-color: #f96440;*/
+	/*background-color: #365d95;*/
+	background-color: #57bd34;
+}
+.mmpp-1 {
+	padding: 10px 25px 10px 25px;
+	color: #333;
+	font-size: 15px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	background-color: #f9f6f6;
+}
+.mmpp-1 > a {
+	color: #333 !important;
+}
+.mpp-created-at {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 10px 10px;
+	color: #fff;
+	font-family: 'PT Sans Narrow', sans-serif;
+	background-color: #57bd34;
+}
+.mmp-content {
+	padding: 5px 20px 10px 10px;
+	/*background-color: #f4f4f5;*/
+	/*background-color: #f4f4f4;*/
+}
+.mmp-content > a.mmp-location {
+	/*color: #52044c;*/
+	font-weight: 800;
+	font-family: 'PT Sans Narrow', sans-serif;
+	/*text-decoration: underline;*/
+	border-bottom: 1px solid #333;
+}
+.mmp-content > h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.mmp-content > p {
+
+}
+.mmp-content > a.comment-tag {
+
+}
+.mmp-content > .mmp-posted-by {
+	margin-top: 10px;
+	text-align: right;
+}
+
+.mmp-2 {
+	position: relative;
+	height: 360px;
+}
+.wrap-mmp-content-2 {
+	position: absolute;
+	left: 5px;
+	bottom: 15px;
+}
+.mmp-content-2 {
+	/*padding: 10px 25px 10px 25px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 700;
+	background-color: #f96440;
+	/*background-color: #365d95;
+	background-color: #57bd34;*/
+}
+.mmpp-2 {
+	padding: 5px 5px 5px 15px;
+	max-width: 70%;
+	color: #333;
+	font-size: 12px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	background-color: #f9f6f6;
+}
+.mmpp-2 > a {
+	color: #333 !important;
+}
+
+.mmp-3 {
+	position: relative;
+	height: 180px;
+}
+
+/* popular-place */
+.wrap-popular-place-container {
+	margin-top: 50px;
+}
+.wrap-popular-places-title {
+	display: table;
+}
+.mpp-title {
+	display: table-cell;
+	height: 180px;
+	vertical-align: middle;
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+	background-color: #ff4747;
+}
+.wrap-popular-places {
+
+}
+.wrap-popular-places > a {
+	height: 180px;
+}
+.mpp-place {
+	position: absolute;
+	/*margin-top: 0px;
+	margin-bottom: 0px;*/
+	right: 0px;
+	bottom: 0px;
+	padding: 10px 10px;
+	width: ;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	font-family: 'PT Sans Narrow', sans-serif;
+	background-color: #ff4747;
+}
+
+/* popular tags */
+.wrap-popular-tag-container {
+	margin-top: 50px;
+}
+.wrap-popular-tags {
+	display: table;
+	padding: 4px;
+	height: 184px;
+	text-align: center;
+}
+.pt-tag {
+	display: table-cell;
+	vertical-align: middle;
+	color: #fff;
+	/*background-color: #f77700;*/
+	background-color: #2976f6;
+}
+.pt-title {
+	position: absolute;
+	left: 0px;
+	top: 10px;
+	padding: 5px 10px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+}
+.pt-tag {
+	font-size: 25px;
+	text-decoration: none !important;
+}
+.pt-bt {
+	position: absolute;
+	left: 0px;
+	bottom: 10px;
+	padding: 5px 10px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+}
+
+/* Ask */
+.wrap-popular-question-container {
+	margin-top: 0px;
+}
+.wrap-popular-question {
+	display: table;
+	padding: 4px;
+	height: 184px;
+	text-align: center;
+}
+.popular-question {
+	display: table-cell;
+	vertical-align: middle;
+	color: #fff;
+	/*background-color: #f77700;*/
+	text-decoration: none !important;
+	background-color: #f77700;
+}
+.pq-title {
+	position: absolute;
+	left: 0px;
+	top: 10px;
+	padding: 5px 10px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+}
+.pq-question {
+	font-size: 25px;
+}
+.popular-question > p {
+	font-size: 15px;
+}
+.pq-asked-by {
+	font-size: 10px;
+}	
+.pq-asked-by > a {
+	color: #fff;
+}
+.pq-num-answers {
+}
+.pq-btn {
+	position: absolute;
+	left: 0px;
+	bottom: 10px;
+	padding: 5px 10px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+}
+
+/* latest */
+.wrap-most-popular-container {
+	margin-top: 50px;
+}
+.mmp-3 {
+	position: relative;
+    height: 176px;
+}
+
+/* Small devices (tablets, 480px and below) */
+@media only screen and (max-device-width: 480px) {
+
+	.wrap-margin {
+		margin-top: 60px;
+	}
+
+	.container-fluid {
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+
+	.row {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.padding-around {
+		padding: 2px;
+	}
+
+	.mpp-place {
+		bottom: 0px;
+		width: 100%;
+	}
+}

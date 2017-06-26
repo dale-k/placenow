@@ -1,0 +1,510 @@
+/*set*/
+.padding-remove {
+	padding: 0;
+}
+h2 {
+	font-size: 40px;
+}
+a {
+	color: #4a4a4a;
+	cursor: pointer;
+}
+
+
+body {
+	/*background-color: #f7f7f7;*/
+}
+.wrap-margin {
+	margin-top: 55px;
+}
+.row {
+	/*margin: 0px;*/
+}
+.border-radius {
+	border-radius: 3px;
+}
+.padding-block {
+	padding: 4px;
+}
+.city-box {
+	display: table;
+	width: 100%;
+	height: 240px;
+	color: #fff;
+	text-align: center;
+	/*background-color: #7dd260;*/
+	background-color: #f77700;
+}
+.city-box-inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+.city-info-inner > h1 {
+	display: ;
+	margin: 0px;
+	text-transform: uppercase;
+}
+.city-box-inner span.chat {
+	font-size: 100px;
+}
+.city-info {
+	display: table;
+	width: 100%;
+	height: 200px;
+	color: #fff;
+	text-align: center;
+	/*background-color: #7dd260;*/
+	background-color: #f77700;
+}
+.city-info-inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+.city-info-inner > h1 {
+	display: ;
+	margin: 0px;
+	text-transform: uppercase;
+}
+.wrap-about-city {
+	margin-top: 35px;
+}
+.wrap-about-city > .number-of-post, .wrap-about-city > .wrap-follow-city {
+	display: inline-block;
+	font-size: 18px;
+	text-align: center;
+}
+.wrap-about-city > .number-of-post {
+	margin-left: 30px;
+}
+.wrap-about-city > .wrap-follow-city {
+}
+.wrap-follow-btn {
+	margin-top: 30px;
+	font-size: 20px;
+	text-align: center;
+}
+.wrap-follow-btn > a {
+	padding: 5px 10px;
+	color: #fff;
+	border: 3px solid #fff;
+	border-radius: 5px;
+}
+
+
+.wrap-top-container {
+	padding-bottom: 0px;
+	/*background-color: #f4f4f5;*/
+}
+
+/* Best */
+.wrap-best {
+	position: relative;
+	padding: 4px;
+}
+.best-title {
+	margin-bottom: 20px;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 800;
+}
+.wrap-best-img {
+	position: relative;
+	display: block;
+	padding: 0;
+	width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+.wrap-best-img > img {
+	position: absolute;
+    margin: auto; 
+    min-height: 100%;
+    min-width: 100%;
+
+    /* For the following settings we set 100%, but it can be higher if needed 
+    See the answer's update */
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+}
+.wrap-best-content {
+	position: absolute;
+	left: 5px;
+	top: 30px;
+}
+.best-posted-at {
+	padding: 10px 25px 10px 25px;
+	color: #333;
+	font-size: 15px;
+	font-weight: 800;
+	font-family: 'PT Sans Narrow', sans-serif;
+	background-color: #f9f6f6;
+}
+.best-location {
+	/*position: absolute;
+	left: 5px;
+	top: 30px;
+	padding: 10px 25px 10px 25px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 700;*/
+	/*background-color: #f96440;*/
+	/*background-color: #365d95;*/
+	/*background-color: #57bd34;*/
+}
+.best-content {
+	padding: 10px 25px 10px 25px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 700;
+	/*background-color: #f96440;*/
+	/*background-color: #365d95;*/
+	background-color: #57bd34;
+}
+.tag-color > a {
+	color: #ea5656;
+}
+.best-content-title h2 {
+	margin-top: 15px;
+	color: #333;
+	font-size: 30px;
+}
+.best-content-comment {
+	/*color: #bfbfbf  !important;*/
+}
+.best-content-comment > p {
+	font-size: 15px;
+}
+.best-author {
+	padding-top: 1%;
+}
+.best-author > a > img, .best-author-name, .best-posted-at {
+	display: inline-block;
+}
+.best-author > a > img {
+	width: 35px;
+	height: 35px;
+}
+.best-author-name {
+	padding: 5px;
+	color: #333;
+	font-size: 15px;
+	font-weight: 700;
+	/*color: #bfbfbf;*/
+}
+.wrap-best-2 {
+	
+}
+.wrap-best-2 > div {
+	position: relative;
+	display: block;
+	padding: 0;
+	width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.wrap-best-2 > div > a > img {
+	position: absolute;
+    margin: auto; 
+    min-height: 100%;
+    min-width: 100%;
+
+    /* For the following settings we set 100%, but it can be higher if needed 
+    See the answer's update */
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+}
+.wrap-best-content-2 {
+	position: absolute;
+	bottom: 10px;
+	right: 5px;
+}
+.best-content-2 {
+	padding: 10px 25px 10px 25px;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 700;
+	font-family: 'PT Sans Narrow', sans-serif;
+	/*background-color: #f96440;*/
+	/*background-color: #365d95;*/
+	background-color: #57bd34;
+}
+.best-content-2 > h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.best-content-2 > p {
+	margin: 0;
+	font-weight: 400;
+}
+.best-content-2 > a {
+	color: #fff;
+	font-weight: 400;
+}
+.best-posted-at-2 {
+	padding: 10px 25px 10px 25px;
+	color: #333;
+	text-align: right;
+	font-weight: 800;
+	font-family: 'PT Sans Narrow', sans-serif;
+	/*background-color: #365d95;*/
+	background-color: #f9f6f6;
+}
+/* titles */
+.places-title, .tags-title, .latest-header {
+	position: relative;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 15px 10px 15px 20px;
+	text-align: left;
+	color: #fff;
+	font-size: 23px;
+	/*font-family: 'PT Sans Narrow', sans-serif;*/
+	/*border-top: 1px solid #333;
+	border-bottom: 1px solid #333;*/
+	background-color: #949494;
+	/*background-color: #365d95;*/
+}
+
+
+/* place */
+.places-title {
+}
+
+.wrap-place {
+	padding: 4px;
+}
+.wrap-place-img {
+	position: relative;
+	display: block;
+	padding: 0;
+	width: 100%;
+	height: 220px;
+    overflow: hidden;
+}
+.wrap-place-img > img {
+	position: absolute;
+    margin: auto; 
+    min-height: 100%;
+    min-width: 100%;
+
+    /* For the following settings we set 100%, but it can be higher if needed 
+    See the answer's update */
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    /*border-radius: 5px;
+    border: 0;*/
+}
+.wrap-place-img > div {
+	position: absolute;
+	left: 0px;
+	bottom: 10px;
+	padding: 10px 15px 10px 10px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	/*font-family: 'PT Sans Narrow', sans-serif;*/
+	background-color: #ff4747;
+	/*background-color: #f9f6f6;*/
+	z-index: 13;
+}
+
+/* Ask */
+.wrap-popular-question {
+	display: table;
+	padding: 4px;
+	height: 416px;
+	text-align: center;
+}
+.popular-question {
+	display: table-cell;
+	vertical-align: middle;
+	color: #fff;
+	background-color: #f77700;
+}
+.pq-title {
+	position: absolute;
+	left: 0px;
+	top: 10px;
+	padding: 5px 10px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
+.pq-question {
+	font-size: 35px;
+}
+.popular-question > p {
+	font-size: 15px;
+}
+.pq-asked-by {
+
+}
+.pq-asked-by > a {
+	color: #fff;
+}
+.pq-num-answers {
+}
+.pq-btn {
+	position: absolute;
+	left: 0px;
+	bottom: 10px;
+	padding: 5px 10px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+}
+
+
+/* Popular tag */
+.tags-title {
+}
+
+.wrap-tag {
+	padding: 4px;
+}
+.wrap-tag-img {
+	position: relative;
+	display: block;
+	padding: 0;
+	width: 100%;
+    overflow: hidden;
+}
+.tag-1 {
+	height: 408px;
+}
+.tag-2 {
+	height: 200px;
+}
+.tag-3 {
+	height: 200px;
+}
+.wrap-tag-img > img {
+	/*position: absolute;*/
+    margin: auto; 
+    min-height: 100%;
+    min-width: 100%;
+
+    /* For the following settings we set 100%, but it can be higher if needed 
+    See the answer's update */
+    /*left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;*/
+    /*border-radius: 5px;
+    border: 0;*/
+}
+.wrap-tag-img > div {
+	position: absolute;
+	left: 5px;
+	bottom: 30px;
+	padding: 5px 15px 10px 15px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'PT Sans Narrow', sans-serif;
+	background-color: #7440f9;
+	/*background-color: #f9f6f6;*/
+	z-index: 13;
+}
+
+/* latest */
+.nearby {
+}
+.wrap-nearby-img {
+	position: relative;
+	display: block;
+	padding: 0;
+	width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.wrap-nearby-img > img {
+	position: absolute;
+    margin: auto; 
+    min-height: 100%;
+    min-width: 100%;
+
+    /* For the following settings we set 100%, but it can be higher if needed 
+    See the answer's update */
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+}
+
+.nearby-content {
+	padding: 10px 30px 15px 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #f4f4f4;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.nearby-location {
+	padding-top: ;
+	color: #577894;
+}
+.nearby-content > h4, .nearby-content > p {
+	
+}
+.nearby-content > h4 {
+	margin-top:20px;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+.nearby-content > p {
+	font-size: 18px;
+}
+.wrap-user-time {
+	margin-top: 5px;
+}
+.wrap-tags {
+	margin-bottom: 10px;
+}
+.nearby-user, .nearby-when {
+	display: inline-block;
+	color: #4e4c4c;
+}
+
+
+
+
+/* Small devices (tablets, 480px and below) */
+@media only screen and (max-device-width: 480px) {
+	.wrap-margin {
+	}
+	.wrap-best-place {
+		height: 300px;
+	}
+	.grid-padding {
+		padding: 0 !important;
+		height: ;
+	}
+	.wrap-place-img {
+		height: 150px;
+	}
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .grid-item img {
+        width: 100% !important;
+    }
+}

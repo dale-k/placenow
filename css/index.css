@@ -1,0 +1,210 @@
+body {
+	background-color: #f7f7f7;
+}
+
+/* Guest */
+.guest-grid-padding {
+	padding: 0px;
+	height: 100%;
+}
+.wrap-guest-nav {
+	position: ;
+	left:0;
+	padding: 0px;
+	width: 100%;
+	background-color: inherit;
+	z-index: 2;
+}
+.wrap-guest-nav #navbar {
+	background-color: inherit;
+}
+div.navbar-wrapper.container-fluid.wrap-guest-nav > div > nav > div > div.navbar-header > a,
+#navbar > ul > li > a {
+	color: #333;
+	font-weight: 800;
+
+}
+
+.grid-sizer,
+.grid-item { 
+	width: 20%; 
+	opacity: 0.5;
+	z-index: 1;
+}
+
+
+
+.wrap-guest-content div.row {
+	margin-top: ;
+	height: 100%;
+	text-align: center;
+	z-index: 2;
+}
+a.guest-share-photo, a.guest-join-chat, a.guest-search-area {
+	display: block;
+	margin-top: auto;
+	height: 100%;
+	line-height: 100%;
+}
+.wrap-guest-btn {
+	overflow: hidden;
+}
+.wrap-guest-btn a.guest-share-photo {
+	
+}
+.wrap-guest-btn a.guest-search-area {
+	background-color: #676767;
+}
+.wrap-guest-btn a.guest-join-chat {
+	background-color: #afacac;
+}
+.wrap-btn-content {
+	position: absolute;
+  	top: 50%;
+  	width: 100%;
+  	transform: translateY(-50%);
+  	z-index: 2;
+}
+.wrap-guest-btn span {
+	color: #333;
+	font-size: 100px;
+}
+.wrap-guest-btn p {
+	margin-top: 2%;
+	color: #333;
+	line-height: 25px;
+	font-size: 25px;
+	font-weight: 800;
+}
+
+
+
+/**/
+
+.wrap-section-title {
+	margin-top: 2%;
+	margin-bottom: 1%;
+	width: 100%;
+	text-align: center;
+}
+.wrap-section-title h2 {
+}
+.wrap-section-title p {
+	color: #ababab !important;
+}
+
+
+.grid-padding {
+	padding: 0px;
+}
+
+.grid-padding {
+	padding: 0;
+	width: ;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+.grid-padding img {
+	position: absolute;
+    margin: auto; 
+    min-height: 100%;
+    min-width: 100%;
+    /* For the following settings we set 100%, but it can be higher if needed 
+    See the answer's update */
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+}
+
+.wrap-top-content {
+	height: ;
+}
+
+.wrap-best-place {
+	padding: 0;
+	width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+.wrap-best-place img {
+	position: absolute;
+    margin: auto; 
+    min-height: 100%;
+    min-width: 100%;
+
+    /* For the following settings we set 100%, but it can be higher if needed 
+    See the answer's update */
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+}
+
+/*
+.btn-add-photo-popular {
+	text-align: center;
+	background-color: #efeeee;
+	border: 1px solid #9e9e9e;
+}
+.btn-add-photo-popular > a {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.btn-add-photo-popular > a > span.glyphicon {
+	font-size: 50px;
+}
+.btn-add-photo-popular > a > p {
+	margin-top: 2%;
+}*/
+
+
+
+.wrap-photo-chat-btn {
+	height: 200px;
+}
+
+.wrap-photo-chat-btn > a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.wrap-photo-chat-btn a {
+	height: 100%;
+	color: #fff;
+	text-align: center;
+	background-color: #333;
+}
+.wrap-photo-chat-btn span {
+	height: 200px;
+	line-height: 200px;
+	font-size: 100px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Small devices (tablets, 480px and below) */
+@media only screen and (max-device-width: 480px) {
+	.wrap-best-place {
+		height: 300px;
+	}
+	.grid-padding {
+		padding: 0 !important;
+		height: ;
+	}
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .grid-item img {
+        width: 100% !important;
+    }
+}

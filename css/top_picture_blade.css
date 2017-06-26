@@ -1,0 +1,143 @@
+/* whole navbar*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form, .navbar-header{
+	background-color: #1b8eb7;
+}
+div.whole-navbar{
+	padding:0px;
+	background-color: #1b8eb7;
+}
+/*for mobile navbr*/
+.navbar-toggle{
+	background-color: white;
+}
+
+/* for position of brand name*/
+.navbar > .container-fluid .navbar-brand {
+    margin-left: 15px;
+    margin-right:15px;
+    color:black;
+}
+.navbar > .container-fluid .navbar-brand:hover{
+	color:white;
+}
+
+/* text color of each link */
+.navbar-default .navbar-nav > li > a{
+	font-size: 15px;
+	color:white;
+}
+/* link position on navbar */
+.navbar-nav li a#link{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+
+.navbar-nav li a#link:hover{
+	background-color: white;
+	border-radius: 3px;
+}
+.navbar-nav li a.active{
+	border-radius: 3px;
+}	
+
+li.open a#link{
+	border-radius: 3px;
+}
+
+.dropdown-menu li a#link{
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-wrapper {
+	position: relative !important;
+}
+.brand-name{
+	position: absolute;
+	margin-left:20px;
+	height:60px;
+
+}
+.brand-name a {
+	color:black;
+	font-size: 18px;
+	font-weight: bold;
+	height:60px;
+	line-height: 60px;
+}
+
+.brand-name a:hover{
+	color:white;
+	text-decoration: none;
+}
+/* nav */
+.wrap-nav-row {
+	
+	background-color: #1b8eb7;
+	height:60px;
+	padding:0px;
+}
+.wrap-nav{
+	position: relative;
+	width:1000px;
+	margin:auto;
+}
+.nav-pills{
+	width:inherit;
+	padding:0px;
+	height:44px;
+	line-height: 44px;
+	font-size: 20px;
+
+}
+.nav-pills li a{
+	color:white;
+	padding:0px;
+	padding-right: 5px;
+	padding-left:5px;
+	margin-right:15px;
+	margin-left:15px;
+	margin-top:8px;
+	margin-bottom:8px;
+}
+
+.nav-pills li a:hover{
+	color:black;
+	
+}
+.return_back{
+	position: absolute;
+	top:0px;
+	right:0px;
+	height:60px;
+	line-height: 60px;
+	width:45px;
+}
+.return_back span{
+	height:60px;
+	line-height: 60px;
+	
+}
+
+.glyphicon-remove{
+	color:black;
+	font-size: 45px;
+}
+
+.glyphicon-remove:hover{
+	color:whites;
+}
